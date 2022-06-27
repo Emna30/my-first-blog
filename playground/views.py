@@ -1,5 +1,6 @@
-#from django.shortcuts import render
+
 #from django.http import HttpResponse
+from django.shortcuts import render
 
 # Create your views here.
 
@@ -8,3 +9,8 @@
 
 #def say_hello (request):
    # return HttpResponse('hello world')
+
+def post_list (request):
+      return render (request,'playground/post_list.html' , {})
+   
+
